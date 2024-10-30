@@ -9,8 +9,18 @@
 
 
 2. Data Collection(ICRA Large Model):
-   /home/resl/Project/quad-swarm-rl/swarm_rl/enjoy.py
+../quad-swarm-rl/swarm_rl/enjoy.py
 
    --quads_num_agents=8 --algo=APPO --env=quadrotor_multi --replay_buffer_sample_prob=0 --quads_use_numba=False --train_dir=/home/resl/Project/ICRA_Quadrotor/quad-swarm-rl/train_dir --experiment=01_final_clean_metric_nei_2_see_3333_q.n.v.num_2 --quads_render=True
+   
+PYTHONUNBUFFERED=1;PYTHONPATH=/home/resl/Project/ICRA_Quadrotor/quad-swarm-rl
+   Working Directory:
+/home/resl/Project/ICRA_Quadrotor/quad-swarm-rl/swarm_rl
+3. Data Collection(ICRA Small Model):
+../quad-swarm-rl/swarm_rl/enjoy.py
 
+   --quads_num_agents=8 --algo=APPO --env=quadrotor_multi --replay_buffer_sample_prob=0 --quads_use_numba=False --train_dir=/home/resl/Project/ICRA_Quadrotor/Small/quad-swarm-rl/train_dir --experiment=02_sim2real_obst_density_see_1111_q.o.den_0.2 --quads_render=True
+
+PYTHONUNBUFFERED=1;PYTHONPATH=/home/resl/Project/ICRA_Quadrotor/Small/quad-swarm-rl
    Working Directory: 
+/home/resl/Project/ICRA_Quadrotor/quad-swarm-rl/swarm_rl
