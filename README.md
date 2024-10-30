@@ -16,6 +16,7 @@
 PYTHONUNBUFFERED=1;PYTHONPATH=/home/resl/Project/ICRA_Quadrotor/quad-swarm-rl
    Working Directory:
 /home/resl/Project/ICRA_Quadrotor/quad-swarm-rl/swarm_rl
+
 3. Data Collection(ICRA Small Model):
 ../quad-swarm-rl/swarm_rl/enjoy.py
 
