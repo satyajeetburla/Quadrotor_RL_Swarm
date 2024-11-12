@@ -25,3 +25,18 @@ PYTHONUNBUFFERED=1;PYTHONPATH=/home/resl/Project/ICRA_Quadrotor/quad-swarm-rl
 PYTHONUNBUFFERED=1;PYTHONPATH=/home/resl/Project/ICRA_Quadrotor/Small/quad-swarm-rl
    Working Directory: 
 /home/resl/Project/ICRA_Quadrotor/quad-swarm-rl/swarm_rl
+
+--quads_num_agents=8
+--algo=APPO
+--env=quadrotor_multi
+--replay_buffer_sample_prob=0
+--quads_use_numba=False
+--train_dir=/home/resl/Project/ICRA_Quadrotor/Small/quad-swarm-rl/train_dir
+--experiment=02_sim2real_obst_density_see_1111_q.o.den_0.2
+--quads_render=True
+--quads_obst_density_random=True
+--quads_obst_density_min=0.02
+--quads_obst_density_max=0.5
+--quads_obst_size_random=True
+--quads_obst_size_min=0.1
+--quads_obst_size_max=0.9
