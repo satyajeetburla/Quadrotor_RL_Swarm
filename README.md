@@ -26,6 +26,11 @@ PYTHONUNBUFFERED=1;PYTHONPATH=/home/resl/Project/ICRA_Quadrotor/Small/quad-swarm
    Working Directory: 
 /home/resl/Project/ICRA_Quadrotor/quad-swarm-rl/swarm_rl
 
+
+/home/resl/Project/ICRA_Quadrotor/Small/quad-swarm-rl/swarm_rl/enjoy.py
+
+PYTHONUNBUFFERED=1;PYTHONPATH=/home/resl/Project/ICRA_Quadrotor/Small/quad-swarm-rl Working
+
 --quads_num_agents=8
 --algo=APPO
 --env=quadrotor_multi
