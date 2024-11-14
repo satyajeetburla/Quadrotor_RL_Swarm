@@ -45,3 +45,14 @@ PYTHONUNBUFFERED=1;PYTHONPATH=/home/resl/Project/ICRA_Quadrotor/Small/quad-swarm
 --quads_obst_size_random=True
 --quads_obst_size_min=0.1
 --quads_obst_size_max=0.9
+
+infos[0]['floor_crash_list'] = floor_crash_list_fin
+infos[0]['wall_crash_list'] =wall_crash_list_fin
+infos[0]['ceiling_crash_list'] =ceiling_crash_list_fin
+
+        floor_crash_list_fin = np.zeros(self.num_agents)
+        wall_crash_list_fin= np.zeros(self.num_agents)
+        ceiling_crash_list_fin= np.zeros(self.num_agents)
+        floor_crash_list_fin[floor_crash_list] = 1.0
+        wall_crash_list_fin[wall_crash_list] = 1.0
+        ceiling_crash_list_fin[ceiling_crash_list] = 1.0
